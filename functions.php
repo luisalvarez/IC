@@ -11,15 +11,15 @@ function ic_theme_enqueue_scripts() {
   wp_register_script('angular-core', 'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.js', array(), null, false);
  
   // register our app.js, which has a dependency on angular-core
-  wp_register_script('angular-app', get_bloginfo('template_directory').'/app.js', array('angular-core'), null, false);
+  // wp_register_script('angular-app', get_bloginfo('template_directory').'/app.js', array('angular-core'), null, false);
  
   // enqueue all scripts
   wp_enqueue_script('angular-core');
-  wp_enqueue_script('angular-app');
+  // wp_enqueue_script('angular-app');
 
 
-  wp_enqueue_script('angularjs', get_template_directory_uri() .'/node_modules/angular/angular.min.js');
-  wp_enqueue_script('angularjs-route', get_template_directory_uri() .'/node_modules/angular-route/angular-route.min.js');
+  // wp_enqueue_script('angularjs', get_template_directory_uri() .'/../../plugins/angularjs-for-wp/js/angular.min.js');
+  // wp_enqueue_script('angularjs-route', get_template_directory_uri() .'/node_modules/angular-route/angular-route.min.js');
   wp_enqueue_script('scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'angularjs', 'angularjs-route' ));
  
   // we need to create a JavaScript variable to store our API endpoint...   
@@ -41,7 +41,7 @@ function ic_theme_enqueue_scripts() {
     wp_enqueue_script("jquery");
     wp_enqueue_script("boostrap_ic_js", get_template_directory_uri()."/vendor/bootstrap/js/bootstrap.min.js", array(), false, true);
     wp_enqueue_script("jqeury_boostrap_ic_js", get_template_directory_uri()."/js/jqBootstrapValidation.js", array(), false, true);
-    wp_enqueue_script("contact_me_js", get_template_directory_uri()."/js/contact_me.js", array(), false, true);
+    // wp_enqueue_script("contact_ic_js", get_template_directory_uri()."/js/contact_me.js", array(), false, true);
     wp_enqueue_script("angency_ic_js", get_template_directory_uri()."/js/agency.min.js", array(), false, true);
 
 }

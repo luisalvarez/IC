@@ -1,5 +1,5 @@
 // initialize the app
-var myapp = angular.module('myicapp', []);
+var myapp = angular.module('icApp', []);
  
 // set the configuration
 myapp.run(['$rootScope', function($rootScope){
@@ -10,7 +10,10 @@ myapp.run(['$rootScope', function($rootScope){
 }]);
  
 // add a controller
-myapp.controller('mycontroller', ['$scope', '$http', function($scope, $http) {
+myapp.controller('myController', ['$scope', '$http', function($scope, $http) {
+  // prueba de Pedro
+  $scope.title = 'Iglesia Cristiana';
+
   // load posts from the WordPress API
   $http({
     method: 'GET',

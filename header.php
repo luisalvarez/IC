@@ -1,16 +1,12 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-=======
-<html <?php language_attributes(); ?> ng-app="myicapp">
->>>>>>> 391461c28b0f0907d52be354607e5dc95655f378
+<html <?php language_attributes(); ?> ng-app="icApp" ng-controller="myController">
 
 <head>
 
+    <!-- <base href="/"> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -57,11 +53,11 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
-            </div>
+                <a class="navbar-brand page-scroll" href="#page-top">Volver al Inicio</a> 
+            </div> 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -70,21 +66,6 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-<<<<<<< HEAD
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-=======
                         <a class="page-scroll" href="#services">Servicios</a>
                     </li>
                     <li>
@@ -98,7 +79,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contacto</a>
->>>>>>> 391461c28b0f0907d52be354607e5dc95655f378
                     </li>
                 </ul>
             </div>
@@ -111,13 +91,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">¡Bienvenidos a Iglesia Cristiana!</div>
+                <div class="intro-heading">Parte del pueblo de Dios en todo el Mundo</div>
+                <a href="#services" class="page-scroll btn btn-xl">Más...</a>
             </div>
         </div>
-<<<<<<< HEAD
     </header>
-=======
-    </header>
->>>>>>> 391461c28b0f0907d52be354607e5dc95655f378
